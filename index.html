@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Chocographe</title>
+</head>
+<body>
+    <h1>Tape Taupe</h1>
+    <div class="preferences"> Choisissez votre grille
+        <select id="boardSize">
+            <option value="9">3x3</option>
+            <option value="16">4x4</option>
+            <option value="25">5x5</option>
+        </select>
+        <button id="startGame">Ok</button>
+    </div>
+    <div class="none gameboard">
+        <div class="infos">
+            <p>Points : <span id="score">0</span></p>
+        </div>
+        <div id="gameboard"></div>
+    </div>
+
+</body>
+</html>
